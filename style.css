@@ -1,0 +1,118 @@
+*{
+    background-color: rgb(23, 22, 22);
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    /* //outline:1px solid rgb(130, 130, 210); */
+
+}
+
+
+.first-page{
+  display: flex;
+}
+
+.first-left{
+width:40%;
+
+
+}
+.first-right{
+ width:60%;   
+
+}
+
+.beatslogo{
+  position:absolute;
+  top:10%;
+  left:20%;
+
+
+}
+
+.mainimage{
+  height:70%;
+  position:relative;
+  left:70%;
+
+}
+
+.first-right nav{
+ height: 15vh;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+
+
+
+}
+
+.first-right nav ul{
+  display:flex;
+  
+
+}
+
+.first-right nav ul li{
+ color:white;
+ list-style-type: none;
+ margin-right: 30px;
+ font-size:20px;
+ 
+
+}
+
+
+
+.first{
+
+    color:rgb(164, 164, 164);
+    background-color:#262525;
+    border-radius:3px;
+    border:none;
+    font-size:18px;
+    font-weight: 200;
+
+    padding:10px 30px
+}
+
+.first:hover{
+    color:rgb(0, 0, 0);
+    background-color: aliceblue;
+
+}
+
+.onear{
+  position:relative;
+  left:20%;
+  filter:brightness(80%);
+  width: 40%;
+  padding: 0px 0px 20px 0px;
+
+
+}
+
+.beats{
+    color:white;
+    position:relative;
+    left:12%;
+    width:30%;
+    font-size: 58px;
+
+
+}
+.para{
+    color:rgb(179, 179, 179);
+    position:relative;
+    left:12%;
+    width:40%;
+    line-height: 25px;
+    font-size:16px;
+
+}
+
+.logosec{
+
+    
+    display:flex;
+}
