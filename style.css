@@ -3,7 +3,7 @@
     margin: 0px;
     padding:0px;
     box-sizing: border-box;
-    /* //outline:1px solid rgb(130, 130, 210); */
+    outline:1px solid rgb(130, 130, 210); 
 
 }
 
@@ -111,8 +111,4 @@ width:40%;
 
 }
 
-.logosec{
-
-    
-    display:flex;
-}
+.imgsec
