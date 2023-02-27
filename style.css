@@ -3,7 +3,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  /* outline: 1px solid rgb(130, 130, 210); */
+  outline: 1px solid rgb(130, 130, 210); 
 }
 
 .first-page {
@@ -101,13 +101,12 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  margin-bottom:50px;
-
+  margin-bottom: 50px;
 }
 
 .specsec {
   display: flex;
-    height: 100vh;
+  margin-bottom: 60px;
 }
 
 .specleft {
@@ -115,7 +114,6 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
-  
 }
 
 .specleft span {
@@ -123,34 +121,71 @@
   display: inline-block;
 }
 
-.specleft span p:nth-child(3){
- color: rgb(117, 117, 117);
-
+.specleft span p:nth-child(3) {
+  color: rgb(117, 117, 117);
 }
 
-.specleft span:nth-child(1){
+.specleft span:nth-child(1) {
   position: relative;
-  left:70%;
-  width:30%;
+  left: 70%;
+  width: 30%;
 }
-.specleft span:nth-child(2){
+.specleft span:nth-child(2) {
   position: relative;
-  left:65%;
-  width:30%;
+  left: 65%;
+  width: 30%;
 }
-.specleft span:nth-child(3){
+.specleft span:nth-child(3) {
   position: relative;
-  left:65%;
-  width:30%;
+  left: 65%;
+  width: 30%;
 }
-.specleft span:nth-child(4){
+.specleft span:nth-child(4) {
   position: relative;
-  left:70%;
-  width:30%;
+  left: 70%;
+  width: 30%;
 }
-
 
 .specright {
   width: 50%;
   margin-top: 60px;
+}
+
+.case img {
+  display: flex;
+  margin: 80px auto;
+}
+
+.caseinner {
+  display: flex;
+}
+
+.leftcase {
+  width: 50%;
+}
+.leftcase img {
+  position: relative;
+  left: 30%;
+  top: -20%;
+}
+.rightcase {
+  width: 50%;
+  color: rgb(179, 179, 179);
+}
+
+.rightcase p {
+  width: 30%;
+  font-size: 18px;
+  line-height: 24px;
+  position: relative;
+  top: 15%;
+}
+
+.btn{
+  color:rgb(255, 255, 255);
+  border: 1px solid white;
+  background-color: white;
+  position: relative;
+  top: 20%;
+
 }
